@@ -1,0 +1,20 @@
+/* styles.css */
+
+.odd-numbers {
+    background-color: #ffc0cb;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.unified-font {
+    font-size: 24px;
+}
+
+#number-2 {
+    color: #0000ff;
+    font-size: 36px;
+}
+
+#number-4 {
+    background-color: #7fffd4;
+    font-weight: bold;
+}
