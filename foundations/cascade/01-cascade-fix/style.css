@@ -1,7 +1,57 @@
+/* Pass */
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* ===== Reminder: All requirements listed here =====
+// 1. font-weight: 800; font-size: 22; color: black;
+// 2. font-weight: 800; font-size: 14; color: black;
+// 3. <confirm> background-color: green; color: white; font-size: 20;
+// 4. <cancel> background-color: white; color: black; font-size: 20;
+// 5. font-weight: 100; font-size: 22; color: black;
+// 6. font-weight: 100; font-size: 22; color: black;
+// 7. <child> font-weight: 800; font-size: 14; color: black;
+*/
+
+/* ===== My Solution ===== */
+
+* {
+  color: hsl(0, 0%, 0%);
+}
+
+p {
+  font-weight: 800;
+  font-size: 22px;
+}
+
+.para.small-para {
+  font-size: 14px;
+}
+
+#confirm-button {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+}
+
+.button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+div {
+  font-size: 22px;
+  font-weight: 100;
+}
+
+div.child {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+
+/* ===== Here's the original CSS ===== 
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
@@ -40,3 +90,4 @@ div.text {
   font-size: 22px;
   font-weight: 100;
 }
+*/
