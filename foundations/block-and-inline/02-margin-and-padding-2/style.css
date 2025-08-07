@@ -7,21 +7,97 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 8px; /* This one's added */
 }
 
 .title {
   background: #e3f4ff;
+  margin-bottom: 8px; /* This one's added */
+  font-size: 16px; /* This one's added */
+  padding: 8px; /* This one's added */
 }
 
 .content {
   background: #e3f4ff;
+  margin-bottom: 8px; /* This one's added */
+  padding: 16px 8px; /* This one's added */
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align: center; /* This one's added */
+  padding: 8px; /* This one's added */
 }
 
 button {
   background: white;
-  border: 1px solid #eee;
+  border: 1px solid #eee; 
+  display: block; /* What I missed */
+  margin: 0 auto; /* Shows none on top and bottom; auto on left and right */
+  padding: 8px 24px; /* This one's added */
 }
+
+/* ====My messy fixes====
+
+body {
+  display: block;
+  box-sizing: border-box;
+  background: #eee;
+  font-family: sans-serif;
+  padding: 30px;
+  margin-bottom: 10px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.card {
+  background-color: #ffffff;
+  width: auto;
+  border: 40px white;
+  margin: 20px;
+  padding: 30px 20px 20px 20px;
+}
+
+.title {
+  text-decoration: solid;
+  font-size: 30px;
+  background: #e3f4ff;
+  width: auto;
+  text-align: left;
+  padding: 20px 15px;
+  margin: 20px;
+}
+
+.content {
+  width: auto;
+  text-align: left;
+  padding: 20px 15px;
+  font-size: 25px;
+  background: #e3f4ff;
+  margin: 20px;
+}
+
+.button-container {
+  display: grid;
+  background: #e3f4ff;
+  width: auto;
+  text-align: center;
+  padding: 20px 15px;
+  font-size: 25px;
+  margin: 20px;
+}
+
+button {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background: white;
+  border: 1px solid #eee;
+  font-size: 25px;
+  padding: 15px 35px;
+}
+*/
