@@ -1,4 +1,8 @@
 .header  {
+  display: flex; /* newly added */
+  justify-content: space-between; /* newly added */
+  align-items: center; /* newly added */
+  padding: 20px; /* newly added */
   font-family: monospace;
   background: papayawhip;
 }
@@ -14,6 +18,10 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex; /* newly added */
+  margin: 0; /* newly added */
+  padding: 0; /* newly added */
+  gap: 10px; /* newly added */
 }
 
 a {
