@@ -24,3 +24,27 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* my solution below */
+.title {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.images,.descriptions {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  gap: 52px;
+}
+
+.text {
+  max-width: 200px;
+}
+
+/* 
+Other solution: 
+-- Use div for both the images and their descriptions.
+-- Use only "body" for text-align.
+-- Apply "max-width" to both img and text.
+*/
