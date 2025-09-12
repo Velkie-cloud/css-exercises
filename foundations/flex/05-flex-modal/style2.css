@@ -17,7 +17,7 @@ body {
 
 .modal {
   background: white;
-  max-width: 480px; /* this changed */
+  width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
@@ -68,26 +68,26 @@ button.cancel {
   color: royalblue;
 }
 
-/* my solution */
+/* official solution */
 .modal {
   display: flex;
-}
-
-.left {
   padding: 20px;
+  gap: 20px;
 }
 
-.right {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 20px 20px 20px 0;
-  gap: 15px;
+.icon {
+  flex-shrink: 0;
 }
 
-.top {
+.header {
   display: flex;
   font-weight: bold;
   font-size: larger;
   justify-content: space-between;
-  width: 380px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.text {
+  margin-bottom: 20px;
 }
