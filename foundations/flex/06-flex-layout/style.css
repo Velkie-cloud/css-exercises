@@ -24,3 +24,68 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* My solutions */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+  font-size: small;
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+  gap: 12px;
+  padding: 30px 15px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 5px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  width: 350px;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+button {
+  padding: 8px 15px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 45px;
+  background: #eeeeee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 5px;
+}
+
+/* Another solution 
+-- See solution.css
+-- 1. Change body to flex-direction: column (top, middle, footer)
+-- 2. Change content to flex-direction: column (profile img, text, buttons)
+-- 3. Set content to flex: 1, justify-content & align-items: center
+-- 4. Class 'header' and 'footer' flex & justify-content: space-between 
+*/
